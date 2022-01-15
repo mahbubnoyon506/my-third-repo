@@ -1,0 +1,27 @@
+/* Small devices */
+@media (min-width: 576px) and (max-width:768px){ 
+.header{padding: 30px 0px;}
+.nav{display: none;}
+.banner{
+    display: flex;
+    flex-direction: column-reverse;    
+}
+.partners ul{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);       
+}
+.container{
+    display: flex;
+    flex-direction: column; 
+}
+.most-trending{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.product-image{
+    width:90%;
+    padding: 0px 5%;
+}
+
